@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.img1 img{
+    border-radius: 20px;
+}
+
 body {
     background-color: #F3D5AF;
     height: 100vh;
@@ -21,6 +25,7 @@ body {
 }
 
 .btn-contato button {
+    color: #b3b3cc;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -420,10 +425,6 @@ footer .line-footer p a {
 
     .topo-do-site h1 {
         font-size: 30px;
-    }
-
-    .img1{
-        border-radius: 10px;
     }
 
     /* ESPECIALIDADES */
