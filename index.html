@@ -27,9 +27,9 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#missaotop">sobre</a></li>
+                    <li><a href="#missaovissao">Vissão e Missão</a></li>
+                    <li><a href="#feedbeek">Feedback</a></li>
                 </ul>
             </nav>
 
@@ -58,7 +58,7 @@
         <section class="topo-do-site">
             <div class="interface">
                 <div class="flex">
-                    <div class="txt-topo-site">
+                    <div class="missaotop1" id="missaotop">
                         <h1>Missão Voluntária<span>.</span></h1>
                         <p>Um aplicativo que busca voluntários para ONGs é uma plataforma digital diseñada para conectar pessoas interessadas em ajudar a causas sociais com organizações não governamentais que necessitam de apoio.</p>
 
@@ -88,7 +88,7 @@
                         Aqui, organizações sem fins lucrativos encontram apoio dedicado e pessoas dispostas a fazer a diferença descobrem oportunidades para contribuir com suas habilidades e tempo. Junte-se a nós na construção de um futuro mais colaborativo e solidário. Explore, envolva-se e ajude a nossa população a crescer e evoluir.</p>
                         <div class="btn-social">
                             <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="mailto:missaovolunt@gmsil.com"><button><i class="bi bi-envelope-fill"></i></button></a>
+                            <a href="mailto:missaovolunt@gmail.com"><button><i class="bi bi-envelope-fill"></i></button></a>
                         </div><!--btn-social-->
                     </div><!--txt-sobre-->
                 </div><!--flex-->
@@ -97,7 +97,7 @@
 
         <section class="especiliadades">
             <div class="interface">
-                <h2 class="titulo">Nossa <span>HISTORIA.</span></h2>
+                <h2 class="titulo" id="missaovissao">Nossa<span> Missão e Visão</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-bullseye"></i>
@@ -114,30 +114,9 @@
             </div><!--interface-->
         </section><!--especiliadades-->
 
-        <section class="sobre">
+        <section class="feedbeek">
             <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="images/foto.png" alt="">
-                    </div><!--img-sobre-->
-
-                    <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU BRUNO RODRIGUES.</span></h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At accusantium ducimus dicta suscipit, neque cumque sunt tenetur totam delectus magnam minus ratione. Quidem sequi velit voluptatibus eos omnis ullam officiis.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quidem quae iusto repellendus eaque, ipsum sed voluptate explicabo voluptas, dolorum porro sequi laudantium? Obcaecati quae, dolores illo officiis a numquam.</p>
-                        <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                        </div><!--btn-social-->
-                    </div><!--txt-sobre-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--sobre-->
-
-        <section class="portfolio">
-            <div class="interface">
-                <h2 class="titulo"><span>Feedbeek</span></h2>
+                <h2 class="titulo" id="feedbeek"><span>Feedbeek</span></h2>
                 <div class="flex">
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
                         <div class="overlay">Projeto 1</div>
@@ -150,24 +129,26 @@
                     </div>
                 </div><!--flex-->
             </div><!--interface-->
-        </section><!--portfolio-->
+        </section><!--feedbeek-->
     </main>
 
     <footer>
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                    <div class="logo-footer">
-                        <img src="images/logo.png" alt="Logo" height="150">
-                    </div><!--logo-footer-->
-                    <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                    </div><!--btn-social-->
                 </div>
             </div><!--line-footer-->
 
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:missaovolunt@gmail.com">contato@missaovolunt.com.br</a></p>
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logo" height="150">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/missao_voluntaria_"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="mailto:missaovolunt@gmail.com"><button><i class="bi bi-envelope-fill"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
