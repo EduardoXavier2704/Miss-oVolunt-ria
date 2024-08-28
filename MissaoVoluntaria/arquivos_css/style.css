@@ -6,12 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    color: #6c3c0c;
+}
+
 .img1 img{
     border-radius: 20px;
 }
 
 body {
-    background-color: #F3D5AF;
+    background-color: #ffbb76;
     height: 100vh;
 }
 
@@ -165,6 +169,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site h1 {
+
     color: #fff;
     font-size: 42px;
     line-height: 40px;
@@ -175,7 +180,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .missaotop1 p {
-    color: #fff;
+    color: #6c3c0c;
     margin: 40px 0;
 }
 
@@ -294,6 +299,54 @@ section.feedbeek .flex {
 .img-port:hover {
     background-position: 100% 100%;
 }
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #273e61;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
 
 /* ESTILO DO RODAPÉ */
 
