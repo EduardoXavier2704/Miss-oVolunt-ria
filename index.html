@@ -136,11 +136,17 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>CONOSCO.</span></h2>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <form
+                    action="https://formsubmit.co/davilsantos333@gmail.com"
+                    method="POST"
+                    data-form>
+
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required />
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required />
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
             </div><!--interface-->
