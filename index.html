@@ -34,7 +34,7 @@
             </nav>
 
             <div class="btn-contato">
-                <a href="mailto:missaovolunt@gmail.com">
+                <a href="#faleconosco">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
@@ -118,35 +118,58 @@
         </section><!--especiliadades-->
         <br><br><br>
         <div id="feedback"></div>
-        <section class="feedbeek">
+        <section class=" feedback">
             <div class="interface">
-                <h2 class="titulo" id="feedbeek"><span>Feedbeek</span></h2>
-                <div class="flex">
-                    <div class="img-port" style="background-image: url(images/feedback1.png);">
-                    </div>
-                    <div class="img-port" style="background-image: url(images/feedback2.png);">
-                    </div>
-                    <div class="img-port" style="background-image: url(images/feedback3.png);">
-                    </div>
-                </div><!--flex-->
+                <h2 class="titulo" id=" feedback"><span> feedback</span></h2>
+                <div class="image-container">
+                    <div class="img-port" style="background-image: url('images/feedback1.png');"></div>
+                    <div class="img-port" style="background-image: url('images/feedback2.png');"></div>
+                    <div class="img-port" style="background-image: url('images/feedback3.png');"></div>
+                </div>
             </div><!--interface-->
         </section><!--feedbeek-->
 
         <section class="formulario">
             <div class="interface">
-                <h2 class="titulo">FALA <span>CONOSCO.</span></h2>
+                <h2 id="faleconosco"  class="titulo">FALA <span>CONOSCO.</span></h2>
 
-                <form
-                    action="https://formsubmit.co/davilsantos333@gmail.com"
-                    method="POST"
-                    data-form>
+                <form action="contato.html">
 
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" required />
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required />
-                    <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <div class="campos">
+                        <div class="input-box">
+                            <div class="name">
+                            <label for="nome"></label>
+                            <input type="text" placeholder="Nome" id="nome" name="nome" >
+                            <p id="nome-ajuda" class="msg-ajuda" style="display:none;">Mín. 3 caracteres</p>
+                        </div>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" id="sobrenome" placeholder="Sobrenome">
+                        </div>
+
+                        <div class="input-box">
+                            <div class="email">
+                            <label for="email"></label>
+                            <input type="text" placeholder="Email" id="email" name="email">
+                            <p id="email-ajuda" class="msg-ajuda" style="display:none;">Insira um email válido. Ex: abc@abc.com</p>
+                        </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="telefone">
+                            <label for="telefone"></label>
+                            <input type="text" placeholder="Telefone" id="telefone" name="telefone">
+                            <p id="tel-ajuda" class="msg-ajuda" style="display:none;">Insira um telefone válido. (11 números)</p>
+                        </div>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea id="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+
+                    </div>
+
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
             </div><!--interface-->
