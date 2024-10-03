@@ -1,14 +1,14 @@
-/* From Uiverse.io by StarMarketPros */ 
-*{
-    color: #ffbb76;
+
+body{
+    background-color: #ffbb76;
 }
+
 .wrapper {
-  --input-focus: #2d8cf0;
-  --font-color: #323232;
-  --font-color-sub: #666;
-  --bg-color: #fff;
-  --bg-color-alt: #666;
-  --main-color: #323232;
+  --input-focus: #273e61;/*Cor do botão de troca*/
+  --font-color: #323232; /*Letra do botao de troca*/
+  --font-color-sub: #666;/*cor da letra da caixa input*/
+  --bg-color: #fff;/*cor da caixa input*/
+  --main-color: #323232;/*Cor da borda caixa*/
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -31,7 +31,7 @@
 
 .card-side::before {
   position: absolute;
-  content: 'Log in';
+  content: 'Login';
   left: -70px;
   top: 0;
   width: 100px;
@@ -42,7 +42,7 @@
 
 .card-side::after {
   position: absolute;
-  content: 'Sign up';
+  content: 'Cadastro';
   left: 70px;
   top: 0;
   width: 100px;
