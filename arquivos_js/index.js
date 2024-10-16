@@ -1,3 +1,19 @@
+if (localStorage.getItem("token") == null) {
+    alert("Você precisa estar logado para acessar essa página");
+    window.location.href = "./login.html";
+}
+
+let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+        
+let logado = document.querySelector("#logado"); 
+Logado.innerHTML = Olá `${userLogado.nome}`;
+
+function sair() {
+    localStorage.removeItem("token");
+    localStorage.removeItem("userLogado");
+    window.location.href = "signin.html"
+}
+
 // ---------- VALIDAÇÃO FORMULÁRIO CONTATO ---------- //
 let nomeInput = document.getElementById("nome");
 let nomeCampo = document.querySelector('label[for="nome"]');
